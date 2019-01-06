@@ -18,7 +18,6 @@ author_profile: true
 <table>
 {% for post in site.conferences reversed %}
   <tr>{% include publication.html %}</tr>
-{% endif %}
 {% endfor %}
 </table>
 {% endfor %}
